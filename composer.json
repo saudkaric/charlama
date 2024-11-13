@@ -1,0 +1,16 @@
+{
+    "name": "charlama/charlama",
+    "description": "Slim PHP framework for web apps",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "application/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "charlama/framework": "dev-main"
+    }
+}
