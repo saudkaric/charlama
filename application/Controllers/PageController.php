@@ -11,4 +11,9 @@ class PageController {
         $data = [];
         return view('pages.home', $data);
     }
+    
+    public function errorAction($code = 404)
+    {
+        return view('errors.'.$code);
+    }
 }
