@@ -1,0 +1,17 @@
+{
+    "name": "charlama/charlama",
+    "description": "Charalama is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["helper/functions.php"]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "charlama/framework": "1.0.*"
+    }
+}
